@@ -26,7 +26,7 @@ npm install
 ```
 3. Create a .env file in the root directory of the project and add the Stream API credentials:
 
-```
+```ini
 STREAM_ID=YOUR_STREAM_ID
 STREAM_API_KEY=YOUR_STREAM_API_KEY
 STREAM_API_SECRET=YOUR_STREAM_API_SECRET
