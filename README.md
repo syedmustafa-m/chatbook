@@ -33,13 +33,13 @@ STREAM_API_SECRET=YOUR_STREAM_API_SECRET
 ```
 
 4. Start the development server
-```
+```bash
 npm start
 ```
 
 The application should now be running at http://localhost:3000/.
 
-##3 Built With
+## Built With
   - [Node.js](https://nodejs.org/en/)
   - [Stream API](https://getstream.io/api-platform/)
   - [React](https://reactjs.org/)
