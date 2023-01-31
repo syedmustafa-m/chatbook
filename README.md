@@ -1,4 +1,4 @@
-Chatbook
+<h1>Chatbook</h1>
 Chatbook is an online chatting application that utilizes the Stream API to provide a seamless and interactive communication experience for users. With its user-friendly interface and robust features, Chatbook makes it easy for people to connect and chat with each other in real-time.
 
 Features
