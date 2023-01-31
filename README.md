@@ -1,29 +1,46 @@
-<h1>Chatbook</h1>
-<p>Chatbook is an online chatting application built using the Stream API.</p>
+# Chatbook
+Chatbook is an online chatting application that is built using the Stream API. It allows users to connect and chat with each other in real-time.
 
-<h2>Usage</h2>
-<p>To run this application, you need to have the following environment variables set:</p>
-<ul>
-  <li>STREAM_ID</li>
-  <li>STREAM_API_SECRET</li>
-</ul>
+## Getting Started
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-<h2>Requirements</h2>
-<p>This application requires the following dependencies:</p>
-<ul>
-  <li>Node.js</li>
-  <li>Express</li>
-  <li>Stream API</li>
-</ul>
+### Prerequisites
+Before you begin, make sure you have the following installed:
 
-<h2>Instructions</h2>
-<ol>
-  <li>Clone the repository to your local machine</li>
-  <li>Run `npm install` to install the required dependencies</li>
-  <li>Set the environment variables (STREAM_ID and STREAM_API_SECRET)</li>
-  <li>Run `npm start` to start the application</li>
-  <li>Visit `http://localhost:3000` to access the application</li>
-</ol>
+- Node.js
+- npm
+- Stream API credentials (STREAM_ID and STREAM_API_SECRET)
 
-<h2>Contribute</h2>
-<p>Feel free to contribute to the development of this application by opening a pull request or an issue.</p>
+### Installing
+1. Clone this repository to your local machine
+
+```git clone https://github.com/YOUR_USERNAME/Chatbook.git```
+
+2. Install the required packages
+
+```
+cd Chatbook
+npm install
+```
+3. Create a .env file in the root directory of the project and add the Stream API credentials:
+
+```
+STREAM_ID=YOUR_STREAM_ID
+STREAM_API_KEY=YOUR_STREAM_API_KEY
+STREAM_API_SECRET=YOUR_STREAM_API_SECRET
+```
+
+4. Start the development server
+```
+npm start
+```
+
+The application should now be running at http://localhost:3000/.
+
+##3 Built With
+  - [Node.js](https://nodejs.org/en/)
+  - [Stream API](https://getstream.io/api-platform/)
+  - [React](https://reactjs.org/)
+  
+## License
+This project is licensed under the MIT license.
