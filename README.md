@@ -14,13 +14,13 @@ Before you begin, make sure you have the following installed:
 ### Installing
 1. Clone this repository to your local machine
 
-```
+```bash
 git clone https://github.com/YOUR_USERNAME/Chatbook.git
 ```
 
 2. Install the required packages
 
-```
+```bash
 cd Chatbook
 npm install
 ```
